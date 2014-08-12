@@ -1,5 +1,8 @@
 # go lang paths
 export GOPATH=$HOME/go
 export PATH=$PATH:$GOPATH/bin
-
+export PATH=$HOME/go/go_appengine:$PATH
 export QTDIR=$HOME/QtSDK/Desktop/Qt/484/gcc
+export ANDROID_HOME=/usr/local/opt/android-sdk
+
+
