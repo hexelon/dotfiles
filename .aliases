@@ -142,3 +142,8 @@ alias reload="exec $SHELL -l"
 
 # Faster npm for Europeans
 command -v npm > /dev/null && alias npme="npm --registry http://registry.npmjs.eu/"
+
+# UBrowser
+alias uqa='open -a "U Browser" --args --u-env=qa'
+alias ustg='open -a "U Browser" --args --u-env=staging'
+alias uprd='open -a "U Browser" --args --u-env=production'
